@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.27.4)
+
+set(PRJOCET_NAME CapturingTitleWebPage)
+project(${PRJOCET_NAME})
+
+add_executable(${PRJOCET_NAME} src/main.cpp)
